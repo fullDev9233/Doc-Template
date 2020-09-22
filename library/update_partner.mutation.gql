@@ -1,0 +1,7 @@
+mutation UpdatePartner($id: String!, $partner_code: String!, $name: String!) {
+  updatePartnerInfo(
+    partner_id: $id,
+    partner_code: $partner_code,
+    name: $name
+  )
+}

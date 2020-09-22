@@ -1,0 +1,10 @@
+query Gurus {
+  gurus {
+    items {
+      id
+      uploadedFileName
+      sysgenFileName
+      createdDate
+    }
+  }
+}

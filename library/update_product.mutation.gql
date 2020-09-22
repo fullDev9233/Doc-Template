@@ -1,0 +1,10 @@
+mutation UpdateProduct($id: String!, $product_code: String!, $cfid: String!, $package: String!, $size: String!, $label: Int!) {
+  updateProductInfo(
+    product_id: $id,
+    product_code: $product_code,
+    cfid: $cfid,
+    package: $package,
+    size: $size,
+    label: $label
+  )
+}

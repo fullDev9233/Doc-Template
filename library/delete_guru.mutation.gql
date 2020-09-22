@@ -1,0 +1,3 @@
+mutation DeleteGuru($id: String!) {
+  deleteGuruById(guru_id: $id)
+}

@@ -1,0 +1,8 @@
+mutation CreateCountry($region_code: String!, $name: String!, $language: String!) {
+  createCountry(region_code: $region_code, name: $name, language: $language) {
+    id
+    regionCode
+    name
+    language
+  }
+}

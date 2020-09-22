@@ -1,0 +1,10 @@
+query Countries {
+  countries {
+    items {
+      id
+      regionCode
+      name
+      language
+    }
+  }
+}

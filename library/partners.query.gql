@@ -1,0 +1,9 @@
+query Partners {
+  partners {
+    items {
+      id
+      partnerCode
+      name
+    }
+  }
+}

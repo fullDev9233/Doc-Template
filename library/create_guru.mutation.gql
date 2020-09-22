@@ -1,0 +1,3 @@
+mutation CreateGuru($files: [Upload!]!) {
+  createGuru(pictures: $files)
+}

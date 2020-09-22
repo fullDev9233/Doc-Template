@@ -1,0 +1,3 @@
+mutation DeleteCountry($id: String!) {
+  deleteCountryById(country_id: $id)
+}

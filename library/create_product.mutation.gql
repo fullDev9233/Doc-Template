@@ -1,0 +1,10 @@
+mutation CreateProduct($product_code: String!, $cfid: String!, $package: String!, $size: String!, $label: Int!) {
+  createProduct(product_code: $product_code, cfid: $cfid, package: $package, size: $size, label: $label) {
+    id
+    productCode
+    cfid
+    package
+    size
+    withLabel
+  }
+}

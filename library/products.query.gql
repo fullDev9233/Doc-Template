@@ -1,0 +1,12 @@
+query Products {
+  products {
+    items {
+      id
+      productCode
+      cfid
+      package
+      size
+      withLabel
+    }
+  }
+}

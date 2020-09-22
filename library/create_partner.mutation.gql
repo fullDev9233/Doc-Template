@@ -1,0 +1,7 @@
+mutation CreatePartner($partner_code: String!, $name: String!) {
+  createPartner(partner_code: $partner_code, name: $name) {
+    id
+    partnerCode
+    name
+  }
+}

@@ -1,0 +1,8 @@
+mutation UpdateCountry($id: String!, $region_code: String!, $name: String!, $language: String!) {
+  updateCountryInfo(
+    country_id: $id,
+    region_code: $region_code,
+    name: $name,
+    language: $language
+  )
+}
